@@ -1,0 +1,27 @@
+focus_tree = {
+	id = cuban_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = CUB
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = CUB_construct
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 1
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+	}
+}
